@@ -1,3 +1,7 @@
+body{
+    padding-bottom: 1000px;
+}
+
 .header{
     position:fixed;
     top:0;
@@ -13,7 +17,7 @@
     border-bottom:1px solid rgb(213, 210, 210);
    padding-bottom:8px;
    z-index: 100;
-    
+    background-color: white;
     
 
 }
