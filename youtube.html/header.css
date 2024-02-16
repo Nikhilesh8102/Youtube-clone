@@ -1,4 +1,8 @@
 .header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
     margin-top:0;
     margin-left:0;
     height:60px;
@@ -8,6 +12,7 @@
     margin-bottom:40px;
     border-bottom:1px solid rgb(213, 210, 210);
    padding-bottom:8px;
+   z-index: 100;
     
     
 

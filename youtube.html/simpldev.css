@@ -4,11 +4,11 @@ p{
     margin-bottom:0px;
     
  }
- /*
+ 
 body{
-    
+    padding-bottom:1000px;
 
-} */
+} 
 
 
 
@@ -48,8 +48,9 @@ body{
     column-gap:16px;
     grid-template-columns:1fr 1fr 1fr 1fr ;
     row-gap:40px;
-    padding-left:72px;
-    margin-right:24px;
+    padding:20px;
+    background-color:rgb(247,247,247);
+   
 }
 .video-info-grid{
     display:grid;
