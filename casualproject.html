@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <title>My Website</title>
+         <style>
+           li{
+            color:blue;
+           }  
+           .first{
+            color:black;
+           }
+           #first{
+            color:brown;
+           }
+           li[draggable]{
+             color:chartreuse; 
+             background-color:crimson;    /*(It has overpowered class attribiute )*/
+           }
+           
+
+             
+             
+         </style>
+         <link rel="stylesheet" href="extstyle.css">
+         
+    </head>
+    <body>
+        <p>Hey everyone, how you guys doing??</p>
+        <h1 style="touch-action: cross-slide-x;">Hello world</h1>
+        <ol>
+          <li  style="background-color:blueviolet" class="first" id="first">
+          Apple  
+          </li>
+          <li class="first" draggable="true">
+            Orange
+          </li>
+          <li>
+            Guava
+          </li>
+        </ol>
+    </body>
+</html>
